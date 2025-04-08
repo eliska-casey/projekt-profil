@@ -1,22 +1,32 @@
-# Bonusový úkol: Profil
+# Projekt: Profil
 
-Bonusový úkol pro kurz Staň se kóderkou od Czechitas. Tento úkol se neodevzdává a nehodnotí. Vypracuj si ho pro sebe jako trénink kódování CSS.
+Cvičný projekt pro kurz Staň se kóderkou od Czechitas.
 
-## Návod k úkolu
+## Postup
 
-1. Udělej si **fork** této repozitáře - tím se ti úkol zkopíruje do tvého GitHub profilu. Forknutou repozitář si naklonuj k sobě na disk. Co je to fork a jak ho provést se dozvíš v [krátkém videu](https://youtu.be/K7rE3jRCjD4).
+### HTML
 
-2. V podkladech pro úkol máš připravený HTML a CSS soubor.
+- V HTML souboru máš připravený obsah.
+- Na obrázku **ukazka-vysledku.jpg** prozkoumej, jak má vypadat konečný výsledek.
+- Podle toho přidej do HTML další potřebné značky, abys mohla obsah nastylovat tak, jak to vypadá na obrázku.
+- Na všechny prvky, které budeš stylovat, si přidej CSS třídy, a styluj pouze přes ně. Snaž se jim vymyslet smysluplné názvy.
+- Přidej písma z Google Fonts.
 
-3. V tomto úkolu je **HTML kompletně hotové a nemusíš ho vůbec měnit**. (Ale můžeš, pokud chceš.)
+### CSS
 
-4. Nakóduj CSS, aby stránka vypadala jako na obrázku. V souboru *zadani-ukolu.jpg* uvidíš, jak má stránka vypadat a jaká jsou na ní použitá písma.
+- Celá kartička bude široká `250px`, **ale** počítej s tím, že může mít i jiný rozměr. Napiš CSS tak, aby se kartička nerozpadla, když změníš její šířku třeba na `300px` nebo `350px`.
+- Odsazení textu od okraje kartičky v její prostřední části je `20px`.
+- Na začátku CSS souboru máš v komentáři všechny potřebné barvy.
+- Tlačítka (odkazy) fungují tak, že standardně jsou černá, ale když se na ně najede myší, tak změní barvu na modrou (Twitter), fialovou (Facebook) nebo červenou (Moje portfolio).
 
-5. Na obrázku se zadáním nejsou uvedené žádné rozměry. Stačí ti pouze dva:
+## Bonus
 
-- **šířka** celého rámečku s profilem je **250px** (nebo 300px, pokud se ti to bude líbit víc)
-- **padding** mezi okrajem rámečku a obsahem uvnitř je **20px**
+- Určitě jsi vyzkoušela, že je s kartičkou vše pořádku, i když změníš její šířku? (Možná ano. Jen se ujišťujeme.)
+- Zkus kartičce udělat zakulacené rohy? Vyzkoušej jak vše vypadá, včetně tlačítek.
+- Nastav kartičku tak, aby byla horizontálně uprostřed stránky.
+- Co bys do kartičky ještě přidala, aby to byl dokonalý osobní profil?
 
-![Zadání úkolu](zadani-ukolu.jpg)
+## Ukázka výsledku
 
-Snaž se na věci přijít sama, ale když se na něčem zasekneš, neboj se nás zeptat na Slacku. Na tvoje dotazy ti rádi odpovíme.
+![Ukázka výsledku](ukazka-vysledku.jpg)
+

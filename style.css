@@ -1,19 +1,11 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
-
 /*
-	BARVY
-	czechitas  #b92e81
-	pozadi     #bdc3c7
-	tmava      #31363b
-	delitka    #3f464d
-	portfolio  #e74c3c
-	facebook   #3b5998
-	twitter    #1da1f2
+  BARVY
+  pozadi stranky      #bdc3c7
+  pozadi karticky     #31363b
+  barva textu         #bdc3c7
+  oddelovace          #3f464d
+  czechitas logo      #b92e81
+  tlacitko portfolio  #e74c3c
+  tlacitko facebook   #3b5998
+  tlacitko twitter    #1da1f2
 */
-
-
-body {
-	background-color: #bdc3c7;
-}
