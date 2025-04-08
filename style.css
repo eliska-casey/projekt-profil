@@ -9,3 +9,116 @@
   tlacitko facebook   #3b5998
   tlacitko twitter    #1da1f2
 */
+
+*{box-sizing: border-box}
+
+body {
+  background-color: #bdc3c7;
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
+  }
+
+.profil {
+  background-color: #31363b;
+  color: #bdc3c7;
+  position: relative;
+  width: 250px;
+  max-width: 350px;
+  min-width: 250px;
+  margin: 30px;
+  box-shadow: 10px 10px 15px 5px grey ;
+  
+}
+
+.foto {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.logo {
+  position: absolute;
+  top: 140px;
+  right: 10px;
+  background-color: #b92e81;
+  border-radius: 50%;
+}
+
+.text {
+  padding: 20px 20px 0 20px;
+  font-size: 14px;
+}
+¨
+.Odkazy {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #bdc3c7;
+  text-transform: uppercase;
+  
+}
+
+.Odkazy a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #bdc3c7;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Portfolio {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  border: solid 0.1px #3f464d;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+.FB, .Twitter {
+  width: 50%;
+  display: inline-block;
+  padding: 15px;
+  border: solid 0.1px #3f464d;
+  margin: 0;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  }
+
+.Twitter {
+  position: absolute;
+  right: 0;
+  border-right: none;
+  }
+
+.Twitter:hover {
+  background-color: #1da1f2;
+  color: white;
+  }
+
+.FB:hover {
+  background-color: #3b5998;
+}
+
+.Portfolio:hover {
+  background-color: #e74c3c;
+}
+
+.FB {
+  border-left: none;
+  border-right: none;
+}
+
+.Twitter, .FB, .Portfolio a:hover {
+  color: white;
+}
+
