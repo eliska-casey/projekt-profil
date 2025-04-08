@@ -10,7 +10,7 @@ Cvičný projekt pro kurz Staň se kóderkou od Czechitas.
 - Na obrázku **ukazka-vysledku.jpg** prozkoumej, jak má vypadat konečný výsledek.
 - Podle toho přidej do HTML další potřebné značky, abys mohla obsah nastylovat tak, jak to vypadá na obrázku.
 - Na všechny prvky, které budeš stylovat, si přidej CSS třídy, a styluj pouze přes ně. Snaž se jim vymyslet smysluplné názvy.
-- Přidej písma z Google Fonts.
+- Přidej písma z Google Fonts - na obrázku se zadáním je zmíněn font **Source Sans Pro**, který se ale v nové verzi jmenuje **Source Sans 3**, takže použij ten.
 
 ### CSS
 
@@ -18,6 +18,7 @@ Cvičný projekt pro kurz Staň se kóderkou od Czechitas.
 - Odsazení textu od okraje kartičky v její prostřední části je `20px`.
 - Na začátku CSS souboru máš v komentáři všechny potřebné barvy.
 - Tlačítka (odkazy) fungují tak, že standardně jsou černá, ale když se na ně najede myší, tak změní barvu na modrou (Twitter), fialovou (Facebook) nebo červenou (Moje portfolio).
+- Velikosti písma a další případné rozměry, paddingy nebo marginy odhadni tak, abyses co nejvíce přiblížila obrázku.
 
 ## Bonus
 
